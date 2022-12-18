@@ -1,11 +1,10 @@
-import LotteryPage from "./views/LotteryPage"
-import Header from "./component/Header";
+import Navbar from "./component/Navbar"
 
 const App = () => {
   return (
     <div className="min-h-screen">
-      <Header />
-      <LotteryPage />
+      <h1>hello world</h1>
+      <Navbar/>
     </div>
   )
 }
