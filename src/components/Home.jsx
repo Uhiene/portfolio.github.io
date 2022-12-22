@@ -5,7 +5,7 @@ import princess from "../assets/princess.jpg";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f] flex p-20 border-2 border-white" >
+    <div name="home" className="w-full h-screen bg-[#0a192f] flex p-20" >
       {/* Container */}
       <div className="w-3/5 py-10">
         <p className="text-sky-300 text-lg">Hi, my name is</p>

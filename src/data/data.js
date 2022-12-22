@@ -1,5 +1,6 @@
 import WorkIm from '../assets/projects/workImg.jpeg'
 import RealEst from '../assets/projects/realestate.jpg'
+import dappbnb  from "../assets/Animation.gif";
 
 export const data=[
     {
@@ -19,7 +20,7 @@ export const data=[
     {
         id:3,
         name:"React JS Application",
-        image:WorkIm,
+        image:dappbnb,
         github:"",
         live:"",
     },
