@@ -1,34 +1,35 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
-import dappbnb  from "../assets/Animation.gif";
+import dappbnb  from "../assets/Animation/dappbnb3.gif";
+import dappworkout  from "../assets/Animation/Animation.gif";
+import afromint  from "../assets/Animation/AfroMint.gif";
+import twitterclone  from "../assets/Animation/twitter_clone.gif";
 
 export const data=[
     {
         id:1,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
+        name:"AfroMint NFT",
+        image:afromint,
+        github:"https://github.com/Uhiene/AfroMint.git",
         live:"",
     },
     {
         id:2,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
+        name:"DappWorkout",
+        image:dappworkout,
+        github:"https://github.com/Uhiene/DappWorkout.git",
         live:"",
     },
     {
         id:3,
-        name:"React JS Application",
+        name:"DappBnb",
         image:dappbnb,
-        github:"",
+        github:"https://github.com/Uhiene/DappBnb.git",
         live:"",
     },
     {
         id:4,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
+        name:"Twitter Clone",
+        image:twitterclone,
+        github:"https://github.com/Uhiene/Twitter-Clone.git",
         live:"",
     },
 

@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f] flex items-center flex-col-reverse sm:flex-row  p-5 md:p-10">
       {/* Container */}
-      <div className="w-full sm:w-1/2 py-10">
+      <div className="w-full sm:w-3/5 py-10">
         <p className="text-sky-300 text-lg">Hi, my name is</p>
         <h1 className="text-4xl md:text-6xl font-bold text-gray-300">
           Princess Uhiene
@@ -32,7 +32,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div className="w-full sm:w-1/2 flex items-center justify-center box-border">
+      <div className="w-full sm:w-2/5 flex items-center justify-end">
         <img
           src={princess}
           alt=""

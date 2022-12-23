@@ -4,11 +4,11 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen flex justify-center items-center p-4"
+      className="w-full p-5 py-10 sm:p-10 flex justify-center items-center"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
+          <p className="text-4xl font-bold inline border-b-4 border-sky-300 text-gray-300">
             Contact
           </p>
           <p className="text-gray-300 py-4">Send me a mail.</p>
@@ -36,7 +36,7 @@ const Contact = () => {
             rows="10"
             placeholder="Message"
           ></textarea>
-          <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
+          <button className="text-white border-2 hover:bg-sky-300  px-4 py-3 my-8 mx-auto flex items-center">
             Let's Collaborate
           </button>
         </form>
