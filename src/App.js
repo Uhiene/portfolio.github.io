@@ -8,8 +8,9 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-[#0a192f]">
       <Navbar />
+      <div className="h-20 md:0"></div>
       <Home />
       <About />
       <Skills />

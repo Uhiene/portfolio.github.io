@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-20 bg-[#0a192f] text-gray-300 border-b border-gray-300">
+    <div className="fixed w-full h-[80px] bg-[#0a192f] flex justify-between items-center p-5 sm:px-10 text-gray-300 border-b border-gray-300">
       <div>
         <h1 className="text-2xl text-sky-300 font-bold">CodeQueen</h1>
       </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
       {/* Hamburger */}
       <div
         onClick={handleClick}
-        className="md:hidden z-10 text-4xl hover:text-sky-300"
+        className="md:hidden z-10 text-2xl hover:text-sky-300"
       >
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen flex bg-[#0a192f] flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
