@@ -5,7 +5,10 @@ import princess from "../assets/princess.jpg";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f] flex items-center flex-col-reverse sm:flex-row  p-5 md:p-10">
+    <div
+      name="home"
+      className="w-full h-screen bg-[#0a192f] flex items-center flex-col-reverse sm:flex-row p-5 md:p-24 mt-56 sm:mt-0"
+    >
       {/* Container */}
       <div className="w-full sm:w-3/5 py-10">
         <p className="text-sky-300 text-lg">Hi, my name is</p>
@@ -32,7 +35,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div className="w-full sm:w-2/5 flex items-center justify-end">
+      <div className="w-full sm:w-2/5 flex items-center justify-center sm:justify-end">
         <img
           src={princess}
           alt=""
