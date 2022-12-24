@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
 
       {/* menu */}
-      <ul className="hidden md:flex text-xl">
+      <ul className="hidden md:flex space-x-10 text-xl">
         <li className="hover:text-sky-300">
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -35,6 +35,11 @@ const Navbar = () => {
         <li className="hover:text-sky-300">
           <Link to="work" smooth={true} duration={500}>
             Work
+          </Link>
+        </li>
+        <li className="hover:text-sky-300">
+          <Link to="article" smooth={true} duration={500}>
+            Article
           </Link>
         </li>
         <li className="hover:text-sky-300">
@@ -108,6 +113,17 @@ const Navbar = () => {
           <Link
             className="hover:text-sky-300"
             onClick={handleClick}
+            to="article"
+            smooth={true}
+            duration={500}
+          >
+            Article
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            className="hover:text-sky-300"
+            onClick={handleClick}
             to="contact"
             smooth={true}
             duration={500}
@@ -120,7 +136,7 @@ const Navbar = () => {
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-300">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-300 p-4">
             <a
               className="flex justify-between items-center w-full text-gray-900"
               href="https://www.linkedin.com/in/uhiene-princess-399470198"
@@ -128,7 +144,7 @@ const Navbar = () => {
               Linkedin <BsLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] p-4">
             <a
               className="flex justify-between items-center w-full text-white"
               href="https://github.com/Uhiene"
@@ -136,7 +152,7 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-500">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-500 p-4">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:princessuhiene.com"
@@ -145,10 +161,10 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 p-4">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/"
+              href="https://www.dropbox.com/s/sp6h2w16kk3slwa/PRINCESS%20UHIENE%20CV.pdf?dl=0"
             >
               Resume <MdEditNote size={30} />
             </a>

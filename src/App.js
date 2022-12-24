@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Carosel from "./components/Carosel";
+import Articles from "./components/Articles";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -15,8 +15,8 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <Carosel/>
       <Work />
+      <Articles/>
       <Contact />
     </div>
   );

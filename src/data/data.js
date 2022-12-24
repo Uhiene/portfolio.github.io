@@ -2,6 +2,8 @@ import dappbnb  from "../assets/Animation/dappbnb3.gif";
 import dappworkout  from "../assets/Animation/Animation.gif";
 import afromint  from "../assets/Animation/AfroMint.gif";
 import twitterclone  from "../assets/Animation/twitter_clone.gif";
+import reactrouter  from "../assets/article/react.png";
+import toastnotifications  from "../assets/article/toast.png";
 
 export const data=[
     {
@@ -16,7 +18,7 @@ export const data=[
         name:"DappWorkout",
         image:dappworkout,
         github:"https://github.com/Uhiene/DappWorkout.git",
-        live:"",
+        live:"https://dappworkout.web.app/",
     },
     {
         id:3,
@@ -34,4 +36,19 @@ export const data=[
     },
 
 
+]
+
+export const articles=[
+    {
+        id: 1,
+        image:reactrouter,
+        medium:"",
+        devto:"https://dev.to/code_queen/how-to-use-react-router-dom-with-tailwind-1f3m",
+    },
+    {
+        id: 2,
+        image:toastnotifications,
+        medium:"https://medium.com/@princessuhiene/how-to-create-toast-notifications-in-react-applications-e26c8e6c168a",
+        devto:"https://dev.to/code_queen/how-to-create-toast-notifications-in-a-react-applications-3aeo",
+    },
 ]

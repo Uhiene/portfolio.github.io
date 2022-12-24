@@ -1,9 +1,9 @@
 
-# DappLottery 
+#   Portfolio
 
 
 ## Step 1. Clone the project
-`git clone https://github.com/Uhiene/DappLottery.git <PROJECT NAME>`
+`git clone https://github.com/Uhiene/Portfolio.git <PROJECT NAME>`
 
 ## Step 2. Install dependencies
 ```sh
